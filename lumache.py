@@ -11,7 +11,7 @@ class InvalidKindError(Exception):
 
 def get_random_ingredients(kind=None):
     """
-    Return a list of random ingredients as strings.
+    주어진 함수에 대해 테일러 급수를 계산하고, 시각화하는 함수이다.
 
     :param kind: Optional "kind" of ingredients.
     :type kind: list[str] or None
