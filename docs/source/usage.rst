@@ -2,6 +2,6 @@
 ----------------
 
 To retrieve a list of random ingredients,
-you can use the ``taylor-seriesgap.plot_comparison()`` function:
+you can use the ``taylor-seriesgap.get_random_ingredients`` function:
 
-.. autofunction:: taylor-seriesgap.plot_comparison
+.. autofunction:: taylor-seriesgap.get_random_ingredients
