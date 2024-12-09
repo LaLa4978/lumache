@@ -15,6 +15,16 @@ import sympy as sp
 
 def taylor_series(kind = None):
     """
+    주어진 함수에 대해 테일러 급수를 계산하고 그 결과를 시각화하는 함수이다.
+
+    :param kind: Optional "kind" of ingredients.
+    :type kind: list[str] or None
+    :raise lumache.InvalidKindError: If the kind is invalid.
+    :return: The ingredients list.
+    :rtype: list[str]
+
+    """
+    """
     주어진 함수에 대해 테일러 급수를 계산하고 그 결과를 시각화하는 함수입니다.
 
     이 함수는 사용자로부터 함수의 수학적 표현, 테일러 급수의 중심, 그리고 차수를 입력받아 
