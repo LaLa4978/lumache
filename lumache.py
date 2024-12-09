@@ -5,17 +5,13 @@ Lumache - Python library for cooks and food lovers.
 __version__ = "0.1.0"
 
 
-"""
-Sympy - Python library for symbolic mathematics
-"""
+class InvalidKindError(Exception):
+    """Raised if the kind is invalid."""
+    pass
 
-__version__ = "0.1.0"
-
-import sympy as sp
-
-def taylor_series():
+def get_random_ingredients(kind=None):
     """
-    주어진 함수에 대해 테일러 급수를 계산하고 그 결과를 시각화하는 함수이다.
+    Return a list of random ingredients as strings.
 
     :param kind: Optional "kind" of ingredients.
     :type kind: list[str] or None
@@ -24,4 +20,4 @@ def taylor_series():
     :rtype: list[str]
 
     """
-   
+    return ["shells", "gorgonzola", "parsley"]
