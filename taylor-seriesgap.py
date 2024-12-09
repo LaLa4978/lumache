@@ -9,7 +9,7 @@ class InvalidKindError(Exception):
     """Raised if the kind is invalid."""
     pass
 
-def get_random_ingredients(kind=None):
+def plot_comparison(kind=None):
     """
     :param function: 수학적 표현으로 입력된 함수
     :type function: str
