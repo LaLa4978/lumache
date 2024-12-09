@@ -20,4 +20,8 @@ def get_random_ingredients(kind=None):
 
     :return: None
     :rtype: None
+
+    예시:
+    1. `taylor_series()` 실행 후 함수로 `sin(x)` 입력
+    2. 중심을 `0`으로 입력하고, 차수 `[2, 4, 6]` 입력 시 `sin(x)`의 테일러 급수 2차, 4차, 6차 근사값이 시각적으로 표시됩니다.
     """
