@@ -18,5 +18,6 @@ def get_random_ingredients(kind=None):
     :param orders: 테일러 급수의 차수 목록
     :type orders: list[int]
 
+    :return: None
+    :rtype: None
     """
-    return ["shells", "gorgonzola", "parsley"]
