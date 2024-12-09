@@ -2,6 +2,6 @@
 ----------------
 
 To retrieve a list of random ingredients,
-you can use the ``taylor-seriesgap.get_random_ingredients`` function:
+you can use the ``lumache.get_random_ingredients`` function:
 
-.. autofunction:: taylor-seriesgap.get_random_ingredients
+.. autofunction:: lumache.get_random_ingredients
